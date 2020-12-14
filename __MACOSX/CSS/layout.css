@@ -1,0 +1,98 @@
+
+
+    /* Layout.css:
+        Content:
+
+        Introduction: The classes what declared here can be called on any div container, to set the correct width.
+
+
+         1. Settings for the correct width
+
+            1.1 Full width. -- [1.1]
+            1.2. 70% width. --[1.2]
+            1.3. 66% 50% and 33% width with vertical gutter  --[1.3] 
+            
+        2. Sticky footer
+            2.1. Set the footer to the bottom of the page  --[2.1] 
+       
+            
+        3. Centerize
+            3.1. Set the items horisontally center  --[3.1]   
+
+        4. Float
+            4.1. Float the items right or left  --[4.1]  
+            4.2 Helper settings for the floating --[4.2]
+
+        5. Whitespace
+            5.1. Set a bigger and smaller white space between containers  --[5.1]  
+
+        6. Flexbox
+            6.1 The parent item gived display flex to direct the child elements depending flex direction.    
+               
+    */ 
+
+
+
+/*  1.Layout items of the page..... */
+
+.layout__item--width--100-percent { width: 100%; } /* [1.1] */
+
+.layout__item--width--70-percent { width: 70%; } /* [1.2] */
+
+.layout__item--width--66-percent-w-vertical-gutter { width: calc(66% - 1.25rem);  } /* [1.3] */
+
+.layout__item--width--50-percent-w-vertical-gutter { width: calc(50% - 0.9375rem); } /* [1.3] */
+
+.layout__item--width--33-percent-w-vertical-gutter { width: calc(33% - 1.25rem);  } /* [1.3] */
+
+
+/* 2. Sticky footer */
+
+.layout__item--content-sticky-footer{ /* [2.1] */
+    min-height: calc(100% - 80px);   
+    }
+
+
+/* 3. Centerize */
+
+.layout__item--horizontal--center { /* [3.1] */
+    margin-right: auto;             
+    margin-left: auto;
+    }
+    
+
+/* 4. Float */
+
+.layout__item--floated--right { float: right; } /* [4.1] */
+
+.layout__item--floated--left { float: left; }  /* [4.1] */
+
+
+.clearfix:after{ /* [4.2] */
+    
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+
+
+
+/* 5. Float */
+.gutter--horizontal-big  { margin-bottom:2.5rem;  } /* [5.1] */
+
+.gutter--horizontal-small { margin-bottom:1.875rem;  } /* [5.1] */
+
+
+/* 6. Float */
+
+/* .flex {               /* [6.1] 
+    display: flex;
+    flex-direction: row; 
+    } */  
+
+
+
+
+
+

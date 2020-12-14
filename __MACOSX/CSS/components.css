@@ -1,0 +1,245 @@
+/* Components.css
+
+    Content:
+
+    Introduction: This file describe the components that make up the page. From internal layout to colors etc..
+
+        1. Buttons
+        2. Header
+        3. Navigation
+        4. Posts
+        5. Category cards
+        6. Side posts
+        7. Footer
+
+
+
+*/
+
+ /*1. Buttons */
+.button {
+      display: inline-block;
+      text-align: center;
+      border: 2px solid;
+      border-radius: 24px;
+      padding:  12.5px 0px;
+      width: 160px;
+      background:transparent;
+}
+
+    .button--header {
+        border: 0;
+        background-color: #FFFFFF;
+        color: #6200EA;
+        margin-right: 19.375rem;
+
+        
+
+    }
+
+    .button--post--white { 
+
+        
+        color: #FFFFFF;
+        border-color: #FFFFFF ;
+        
+        
+    }
+
+    .button--post--purple {
+
+        color: #6200EA;
+        border-color: #6200EA;
+        
+
+
+ }
+
+ /*2. Header */
+
+.header{
+     height: 80px;
+     background-color:#6200EA ;
+    }
+    
+    .header__wrapper {
+        display: table;
+        height: 100%;
+        
+    }
+    
+        .header__content{
+             display: table-cell;
+            vertical-align: middle;
+        }
+
+/*3. Navigation */
+
+.nav{
+    height: 80px;
+    background-color:#FFFFFF ; 
+    display: table;
+} 
+    .nav__wrapper{
+        height: 100%;
+        display: table;
+    }
+        .nav__content{
+            
+            display: table-cell;
+            vertical-align: middle;
+        }    
+
+    .nav__wrapper__links{
+        margin-right: 70px;
+        padding-bottom: 1.8375rem;
+        
+        }
+        .nav__wrapper__links:hover{
+            color: #6200EA;
+            border-bottom: solid #6200EA;
+        }
+
+        .nav__wrapper__links:last-child{
+            margin-right: 0;
+        }
+
+
+
+/*4. Posts */
+
+ .post {
+     background-color: #FFFFFF;
+     border-radius: 15px;
+     width: 730px;
+     padding: 3.75rem 3.75rem 3.125rem 3.75rem;
+ }
+    .post__data{
+        color:#B2ACBA ;
+    }  
+
+
+.post__featured {
+    background-image: url(/wsc-practice-assets/blog/roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
+    background-size: cover;
+    width: 730px;
+    height: 350px;
+    color: #FFFFFF;
+}   
+
+    .post__text{
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        font-weight: lighter;
+    }
+
+
+    .post__img
+    {
+        width: 730px;
+        height: 320px;
+        border-radius: 15px 15px 0px 0px;
+        display: block;
+        object-fit: cover;
+    }
+     .post-widthout-top-radius {
+         border-radius: 0 0 15px 15px;
+      } 
+      
+      
+
+
+/*5. Category cards */
+
+
+ .category-card {
+      background-color: #FFFFFF;
+      padding:1.250375rem ;
+      border-radius: 15px;
+     }
+    .category-card__img 
+    {
+         width: 120px;
+         height: 120px;
+         border-radius: 10px;
+         object-fit: cover;
+         margin-right: 1.250375rem;
+    }
+    .category-card__title { 
+        color:#6200EA;
+    }
+    .category-card__text {
+        margin-bottom: 0;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+
+   
+    
+}
+
+
+/*6. Side cards */
+
+.category-card__side{
+    background-color: #FFFFFF;
+    padding:1.250375rem ;
+     
+}
+
+    .sidebar-element__header { 
+        background-color: #6200EA;
+        text-align: center;
+        color: #FFFFFF;
+        border-radius: 0.975rem 0.975rem 0 0;
+    
+    }
+
+        .sidebar-element__title {
+            padding: 23px 0 22px 0;
+            margin-bottom:0 ;
+        }
+
+
+    .sidebar-element__list__item {
+        padding: 1.06225rem 1.875125rem 1.12525rem 1.875125rem;
+        border-bottom: 1px solid #f4f3f5;
+        background-color: #FFFFFF
+    }    
+
+
+
+        .sidebar-element__list__link {
+            color:#211138;
+        } 
+
+    .sidebar-element__footer { 
+        background-color: #FFFFFF;
+        text-align: center;
+        padding: 22px 0 23px 0;
+        border-radius: 0 0 0.975rem 0.975rem;
+        border-top: 0.06rem solid #f4f3f5 ;
+
+    }
+
+        .sidebar-element__footer__link {
+            color: #B2ACBA;
+        }
+
+
+/*7. Footer */
+
+ .footer { 
+     background-color:#211138 ;
+     padding: 2.6875rem 15.3125rem 2.625rem 15.3125rem ;
+ }
+
+    .footer__text {
+        color: #B2ACBA;
+        text-align: center;
+        font-size: 0.75rem;
+        letter-spacing: 0.15625rem;
+   
+    } 
+        .footer__span {
+        color: #6200EA;
+        }
