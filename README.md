@@ -1,2 +1,2 @@
 # blog
-CodeBerry practice
+CodeBerry practice for 1600 x 900 screen
